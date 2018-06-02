@@ -10,7 +10,7 @@ for:
   matrix:
     only:
       - image: ubuntu
-  clone_folder: /usr/go/src/github.com/adamdecaf/cert-manage
+  clone_folder: ${HOME}/.gvm/gos/go1.10/src/github.com/adamdecaf/cert-manage
   environment:
     GOPATH: /usr/go/  
 -
